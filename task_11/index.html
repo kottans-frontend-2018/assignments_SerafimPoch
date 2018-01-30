@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <title>Task_11</title>
+        <meta charset=utf-8>
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <link rel=stylesheet href=css/style.css>
+        <link rel=stylesheet href=css/support.css>
+        <link rel=stylesheet href=css/reset.css>
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/8e21995b2c.js"></script>
+    </head>
+<header>
+    <section class=head_sec>
+        <div>
+            <button class=go_back>
+            <img    src=img/left-arrow.png 
+                    class=left_arrow>
+               GO BACK
+            </button>
+        </div>
+         <div>
+            <img src=img/logo.png
+                 class=logo_head>
+        </div>
+        <div>
+            <button class=sign_in>
+            <img    src=img/man-shape.png 
+                    class=face
+                    alt=man_shape>
+               SIGN IN
+            </button>
+        </div>
+    </section>
+</header>
+
+<main>
+    <form>
+    <section class=sec_1>
+        <div class=order_wrapper>
+            <div class=left>
+                <div class=order_list>
+                    <div class=order_header>
+                        <h2>
+                            <i class="fa fa-clipboard order-symbol" aria-hidden="true"></i>
+                        YOUR ORDER
+                        </h2>
+                    </div>    
+    <div class=order_main>
+        <div class=table_1>  
+            <table>
+                <tr>
+                    <th>ITEMS</th> 
+                    <th id=details>DETAILS</th> 
+                    <th id=price>PRICE</th> 
+                    <th id=delivery>DELIVERY</th>        
+                </tr>
+            </table>
+        </div>
+        <div class=table_2>
+            <table>
+                <tr>
+                    <td>2 documents</td>
+                    <td>2 languages</td> 
+                    <td id=lang_table_3 value='USD 696.06'>$ 696.06</td> 
+                    <td id=lang_table_4>48 hours</td>    
+                </tr>
+            </table>
+        </div>
+    </div>
+        </div> 
+            <div class=button_order>
+                <button class=place_order>PLACE ORDER</button>
+                 <button class=print_a_quote>PRINT A QUOTE</button>
+        </div>
+            </div> 
+    <div class=right>
+        <div class=help_center>
+            <h2>
+                <i class="fa fa-life-ring ring" aria-hidden="true"></i>
+                HELP CENTER
+            </h2>
+        </div>
+        <div class=right_text>
+            <p>
+                If you need assistance while palcing your
+                order, contact one of our beloved Project 
+                Manager by phone or email.
+            </p>
+            </div>
+        <div class=right_adress>
+                <adress class=help_contact>
+                        <a class=phone 
+                           href="tel">
+                        +971 (0) 555 555
+                        </a>
+                        <a class=email 
+                           href="mailto:help@qtest.com">
+                           help@qtest.com
+                        </a>
+                </adress>
+        </div>
+    </div> 
+        </div>
+    </section>
+        <section class=sec_2>
+            <div class=second_block>
+                <p class=second_block_text>SELECT WHAT YOU WANT TO TRANSLATE</p>
+            </div>
+        </section>
+    <section class=sec_3>
+        <div class=label>
+            <label class=select_type>
+                <input hidden required 
+                       type=radio 
+                       name=var 
+                       value=website>
+                <div class=select_wrapper>
+                    <img class=select_img 
+                         src=img/website.png 
+                         alt=website>
+                    <p class=label_text>Website</p>
+                </div>
+            </label>
+        </div>
+            <div class=label>
+                 <label class=select_type>
+                     <input hidden required 
+                            type=radio 
+                            name=var 
+                            value=website>
+                        <div class=select_wrapper>
+                            <img class=select_img 
+                                 src=img/documents.png 
+                                 alt=documents>
+                            <p class=label_text>Documents</p>
+                        </div>
+                </label>
+            </div>
+                <div class=label>
+                    <label class=select_type>
+                        <input hidden required 
+                               type=radio 
+                               name=var 
+                               value=website>
+                            <div class=select_wrapper>
+                                <img class=select_img 
+                                     src=img/social-account.png 
+                                     alt=social_account>
+                            <p class=label_text>Social Account</p>
+                            </div>
+                    </label>
+                </div>
+    </section>
+        <section class=sec_4>
+            <div class=upload_doc>
+                 <div class=number_one>
+                    <p class=number_one_symbol>1</p>                
+                </div>
+                <div class=doc_text>
+                    <p class=doc_text_style>Upload your documents</p>
+                </div>
+                <div class=small_doc_text>
+                    <p class=small_doc_text_style>(Doc, Docx, Text, PDF, Markdown)</p>
+                </div>
+            </div>
+            <div class="upload_file_wrapper">
+                    <div class=upload_file>
+                            <label  for=upload 
+                                    class=upload_label>
+                                <input type=file 
+                                       hidden 
+                                       required
+                                       id=upload
+                                       name=upload>
+                                <div class=wrapper_label_th_1 >
+                                        <i class="fa fa-cloud-upload i_font_2" 
+                                           aria-hidden="true"></i>
+                                    <p class=label_th_1_text>
+                                        Upload a new file
+                                    </p>
+                        </div>
+                    </div>    
+                </div>
+             <div class=upload_table>
+                <div class=up_tb_container>
+                    <div class=container_1>
+                            <div class=file_name>
+                                <p>FILE NAME</p>
+                            </div>
+                            <div class=biss_1>
+                                <img class=text_img 
+                                     src=img/text-file.png
+                                     alt=text_img>
+                                <p class=biss_1_text_1>
+                                    business_operations.docx
+                                </p>
+                            </div>
+                            <div class=biss_2>
+                                    <img class=text_img 
+                                    src=img/text-file.png
+                                    alt=text_img>
+                               <p class=biss_2_text_2>
+                                   business_finantial.docx
+                               </p>
+                            </div>
+                        </div>
+                    <div class=container_2>
+                        <div class=file_size>
+                            <p class=file_size_text>FILE SIZE</p>
+                        </div>
+                        <div class=kb_1>
+                            <p class=kb_1_text>78kb</p>
+                        </div>
+                        <div class=kb_2>
+                            <p class=kb_2_text>26kb</p>
+                        </div>
+                    </div>
+                    <div class=container_3>
+                        <div class=number_words>
+                            <p>NUMBER OF WORDS</p>
+                        </div>
+                        <div class=num_1>
+                            <p class=num_1_text>842</p>
+                        </div>
+                        <div class=num_2>
+                             <p class=num_2_text>2,326</p>
+                        </div>
+                         </div>
+                    <div class=container_4>
+                        <div class=remove>
+                            <p class=remove_text>REMOVE</p>
+                        </div>
+                    <div class=trash>
+                        <button>
+                            <img class=img_trash
+                                 src=img/trash.png
+                                 alt=trash>
+                        </button>
+                    </div>
+                    <div class=trash>
+                        <button>
+                            <img class=img_trash
+                                 src=img/trash.png
+                                 alt=trash>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <section class=sec_5>
+            <div class=choose_1>
+                <div class=choose_1_number>
+                    <p class=number_2>2</p>
+                </div>
+                <div class=choose_1_text_block>
+                    <p class=choose_1_text>
+                      Choose your lanquages parings
+                    </p>
+                </div>
+            </div>
+            <div class=choose_2>
+                <div class=choose_2_text>
+                    <p>From</p>
+                </div>
+                <div class=choose_2_select>
+                    <select class=select_1>
+                        <option value=English>English</option>
+                        <option value=Ukrainian>Ukrainian</option>
+                        <option value=Franch>Franch</option>
+                        <option value=Russian>Russian</option>
+                    </select>
+                </div>
+            </div>
+            <div class=choose_3>
+                <div class=choose_3_text>
+                    <p>To</p>
+                </div>
+                <div class=choose_3_select_2>
+                    <select class=select_2>
+                        <option value=Arabic>Arabic</option>
+                        <option value=German>German</option>
+                        <option value=Franch>Franch</option>
+                        <option value=Russian>Russian</option>
+                    </select>
+                </div>
+                <div class=choose_3_select_3>
+                    <select class=select_3>
+                        <option value=Kurdish>Kurdish</option>
+                        <option value=German>German</option>
+                        <option value=Franch>Franch</option>
+                        <option value=Russian>Russian</option>
+                    </select>
+                </div>
+                <div class=choose_3_trash>
+                    <button>
+                        <img class=img_trash 
+                             src=img/trash.png 
+                             alt=trash>
+                    </button>
+                </div>
+                <div class=choose_3_button>
+                    <button class=add_button>
+                        <img  src=img/plus.png 
+                              class=plus>
+                        ADD
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class=sec_6>
+            <div class=three>
+                <div class=wrapper_three_1>
+                    <div class=number_3>
+                        <p class=number_3_text>3</p>
+                    </div>
+                    <div class=number_3_text_wrap>
+                        <p>Select your desired tone</p>
+                    </div>
+                </div>
+             <div class=wrapper_main_three>
+                <div class=wrapper_three_2>
+                    <label  for=comments 
+                            class=three_label_1>
+                        <input type=radio 
+                               hidden 
+                               required
+                               id=comments
+                               name=button_group>
+                        <div class=wrapper_label_th_1 >
+                            <i class="fa fa-comments i_font_2" 
+                               aria-hidden="true"></i>
+                            <p class=label_th_1_text>
+                                Friendly/Casual
+                            </p>
+                        </div>
+                    </div>
+                <div class=wrapper_three_3>
+                    <label  for=suitcase 
+                          class=three_label_1>
+                        <input type=radio 
+                               hidden 
+                               required
+                               id=suitcase
+                               name=button_group>
+                        <div class=wrapper_label_th_2>
+                                <i class="fa fa-suitcase i_font_3" 
+                                   aria-hidden="true"></i>
+                                <p class=label_th_1_text>
+                                    Corporate/Pro
+                                </p>
+                            </div>
+                    </div>
+                <div class=wrapper_three_4>
+                    <label class=three_label_1
+                           for=bullhorn>
+                        <input type=radio 
+                               hidden 
+                               required
+                               id=bullhorn
+                               name=button_group>
+                        <div class=wrapper_label_th_3>
+                               <i class="fa fa-bullhorn i_font_4" 
+                                 aria-hidden="true"></i>
+                            <p class=label_th_1_text>
+                                Media/Formal
+                            </p>
+                        </div>
+                            </div>
+                     </div>
+                    </div>
+            <div class=four>
+                <div class=wrapper_three_1>
+                    <div class=number_3>
+                        <p class=number_3_text>4</p>
+                    </div>
+                    <div class=number_3_text_wrap>
+                        <p>Tell us how urgent this job is</p>
+                    </div>
+                </div>
+                <div class=scroll_wrapper>
+                    <div class=scroll>
+                        <input required
+                               type=range 
+                               name=urgent
+                               min=0 max=100
+                               stop=25 value=50>      
+                    </div>
+                    <div class=scroll_text>
+                        <p>I GOT TIME</p>
+                        <p class=orange>AVERAGE</p>
+                        <p>YESTERDAY</p>
+                    </div>
+                </div>
+                <div class=block_info>
+                        <div class=head_block_info>
+                            <div class=time_line_img>
+                                <i class="fa fa-info" aria-hidden="true"></i>
+                            </div>
+                            <div class=time_line_text>
+                                <span class=legend-title>
+                                    TIMELINE INFO
+                                </span>
+                            </div>
+                        </div>
+                        <div class=block_info_text>
+                            <p>With an <span class=orange>AVERAGE</span> timeline set up, 
+                                our expert translator can take a 
+                                reasonable amount of time perfecting 
+                                your translation</p>
+                        </div>
+                        </div>
+            </div>
+            </section>
+            <section class=sec_7>
+                <div class=title_5>
+                    <div class=number_5>
+                        <p class=number_3_text>5</p>
+                    </div>
+                    <div class=number_5_text_wrap>
+                        <p>Sign up and choose a payment method</p>
+                    </div>
+                </div>
+                <div class=bottom_text>
+                    <p class=text_already>
+                Already have a account with us ?
+                    </p>
+                <a href=#>Sign in</a>
+                </div>
+                <div class=input_name_wrapper>
+                    <div class=input_name>
+                        <p class=full_name>
+                    FULL NAME
+                        </p>       
+                    </div>
+                    <div class=input_form>
+                        <div>
+                        <input name="name" 
+                               id="name" 
+                               required 
+                               value="Mathieu Mayer" 
+                               placeholder="">
+                        <label for="name"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class=input_email_password_wrapper>
+                    <div class=input_email_wrapper>
+                        <div class=email_name>
+                                <p class=full_name>
+                                    EMAIL ADRESS
+                                </p>
+                            </div>
+                        <div class=email_form>
+                            <div>
+                                <input type="email" 
+                                       name="name" 
+                                       required 
+                                       id="email" 
+                                       value="mathieu.mm@me.com" 
+                                       placeholder="">
+                                <label for="email"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=input_password_wrapper>
+                        <div class=password>
+                             <div class=password_name>
+                                <p class=full_name>
+                            CHOOSE A PASSWORD
+                                </p>
+                            </div>
+                        </div>
+                        <div class=password_form>
+                            <div>
+                                <input minlength="8"
+                                    type="password" 
+                                    name="name" 
+                                    id="password" 
+                                    required 
+                                    title="Password length be 8 characters minimum">
+                                <label for="password"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class=sec_8>
+                <div class=visa_mastercard_wrapper>
+                    <label class=visa_mastercard>
+                        <input hidden
+                               required
+                               type=radio
+                               name=payment>
+                        <div class=payment_wrapper>
+                            <img class=visa_img
+                                 src=img/visa.png
+                                 alt=visa_master>
+                        </div>
+                    </label> 
+                </div>
+                <div class=paypal_wrapper>
+                    <label class=paypal>
+                        <input hidden
+                               required
+                               type=radio
+                               name=payment>
+                        <div class=payment_wrapper>
+                            <img class=paypal_img
+                                 src=img/paypal.png
+                                 alt=paypal>
+                        </div>
+                    </label> 
+                </div>
+                <div class=amazon_wrapper>
+                    <label class=amazon>
+                        <input hidden
+                               required
+                               type=radio
+                               name=payment>
+                        <div class=payment_wrapper>
+                            <img class=amazon_img
+                                 src=img/amazon.png
+                                 alt=amazon>
+                        </div>
+                    </label> 
+                </div>
+            </section>
+            <section class=sec_9>
+                <div class=card_number>
+                    <p class=full_name>CARD NUMBER</p>
+                    <div>
+                        <input type=text
+                               name=card 
+                               id=card 
+                               title="enter 16 digit card number" 
+                               maxlength="16" 
+                               placeholder="">
+                        <label for=card></label>           
+                    </div>
+                </div>
+                <div class=expire_date>
+                    <p class=full_name>EXPIRY DATE</p>
+                    <div>
+                        <input type=text
+                               name=expiry 
+                               id=expiry 
+                               title="enter 6 digit card number" 
+                               maxlength=6
+                               placeholder="DD/MM/YY">
+                        <label for=expiry></label>           
+                    </div>
+                </div>
+                <div class=code>
+                    <p class=full_name>CODE</p>
+                    <div>
+                        <input type=text
+                               name=card_1 
+                               id=code 
+                               title="enter 3 digit card number" 
+                               maxlength=3
+                               placeholder=''>
+                        <label for=code></label>           
+                    </div>
+                </div>
+            </section>
+            <section class=sec_10>
+                <div class=check_text_wrapper>
+                    <input type=checkbox>
+                <label>
+                    <p class=check_text>
+                        I agree to the
+                        <a href=#>Terms & Conditions</a>
+                    </p>
+                </label>
+                    </div>
+                <div class=button_order_2>
+                    <button class=place_order>PLACE ORDER</button>
+                    <button class=print_a_quote>PRINT A QUOTE</button>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <section class=sec_11>
+            <div class=footer_text_block>
+                <div class=footer_text_block_head>
+                    <i class="fa fa-heart-o i_font_5" 
+                       aria-hidden="true"></i>
+                <p class=foot_head_text>
+                    WHAT WE DO
+                </p>
+                </div>
+                <div class=footer_text_block_main>
+                <p>We provide a full range of language </p> 
+                <p>services including content development, </p> 
+                <p>document, website and social media </p> 
+                <p>accounts translations.</p>
+                </div>
+            </div>
+            <div class=footer_text_block>
+                <div class=footer_text_block_head>
+                    <i class="fa fa-compass i_font_5" 
+                    aria-hidden="true"></i>
+                    <p class=foot_head_text>
+                        OUR MAIN OFFICE
+                    </p>
+                </div>
+                <div class=footer_text_block_main>
+                    <address>
+                        <ul>
+                            <li>Dubai, UAE</li>
+                            <li>P.O. Box: 502735</li>
+                            <li>Phone: <a href="tel:+971(0)44278128">+971(0)44278128</a></li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+            <div class=footer_text_block>
+                <div class=footer_text_block_head>
+                    <i class="fa fa-share-alt i_font_5" 
+                       aria-hidden="true"></i>
+                <p class=foot_head_text>
+                    CONNECT WITH US
+                </p>
+                </div>
+                <div class=footer_text_block_main>
+                    <div class=foot_main_sub>
+                        <div>
+                            <i class="fa fa-facebook-square i_font_5" 
+                               aria-hidden="true"></i>
+                        </div>
+                        <div>
+                    <p>Facebook</p>
+                        </div>
+                    </div>
+                    <div class=foot_main_sub>
+                        <div>
+                             <i class="fa fa-twitter-square i_font_5" 
+                                aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p>Twitter</p>
+                        </div>
+                    </div>
+                    <div class=foot_main_sub>
+                        <div>
+                            <i class="fa fa-linkedin-square i_font_5" 
+                               aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p>Linkedin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div calss=footer_image>
+            <img src=img/footer_circle.png
+                 class=logo_head
+                 alt=footer_cirle>
+        </div>
+        </section>
+    </form>
+</main>
+    </footer>
+</html>
